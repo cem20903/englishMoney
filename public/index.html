@@ -31,10 +31,23 @@
 <body>
   <div class="container">
     <div class="prueba">
-      <h1>32 <i class="far fa-clock"></i> </h1>
-      <h1>3.2 <i class="fas fa-euro-sign"></i></h1>
+      <h1>40 <i class="far fa-clock"></i> </h1>
+      <h1>4 <i class="fas fa-euro-sign"></i></h1>
+
+      <ul>
+        <li>32min - 3,2</li>
+        <li>8min - 0,80</li>
+      </ul>
+      <input type="text" placeholder="Inserte registro: ejemplo: '10min'" />
+      <button id="enviar">Enviar</button>
     </div>
   </div>
 
 </body>
+<script>
+  const button = document.querySelector('#enviar')
+  button.addEventListener('click', () => {
+    alert('Gracias por tu feedback, esperamos poder implementar esto pronto')
+  })
+</script>
 </html>
